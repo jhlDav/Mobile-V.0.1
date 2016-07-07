@@ -85,7 +85,7 @@ angular.module('inicio')
       var nfolio = Math.floor((Math.random() * 10000) + 1);
       var servicio = {
               folio: nfolio,
-              idcliente:id,
+             // idcliente:id,
               ncliente: $scope.ncliente,
               nombre: $scope.nombre,
               serie:$scope.serie,
